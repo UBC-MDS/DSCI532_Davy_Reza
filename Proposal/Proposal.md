@@ -30,7 +30,7 @@ Mary is a researcher who is doing a project about police department performance.
 
  <br>
  <center>
- <img src="./pic1.jpg" width="750px"/>
+ <img src="./pic1.jpg" width="850px"/>
  </center>
  <p style="text-align:center">
  Figure 1. The user choses the State and City and a year range (until 2015) and presses the 'Plot historical data' button. The 'Total crimes' have been plotted in the corresponding Tab.
@@ -39,7 +39,7 @@ Mary is a researcher who is doing a project about police department performance.
 
  <br>
  <center>
- <img src="./pic2.jpg" width="750px"/>
+ <img src="./pic2.jpg" width="850px"/>
  </center>
  <p style="text-align:center">
  Figure 2. The user choses the State and City and enters a specific year (after 2015) and presses the 'Predict' button. The 'Total crimes' have been plotted in the corresponding Tab showing the prediction.
@@ -48,7 +48,7 @@ Mary is a researcher who is doing a project about police department performance.
 
  <br>
  <center>
- <img src="./pic3.jpg" width="750px"/>
+ <img src="./pic3.jpg" width="850px"/>
  </center>
  <p style="text-align:center">
  Figure 3. The user choses a specific year (before 2015) and enters the number of cities to be plotted and the choses the order of plot from the radio buttons and finally presses the 'Sort data' button. The 'Total crimes' have been plotted in the corresponding Tab showing the sorted data of the top cities for that year.
