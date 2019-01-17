@@ -1,4 +1,4 @@
-year,City,homs_sum,rape_sum,rob_sum,agg_ass_sum,violent_crime,violent_per_100k,homs_per_100k,rape_per_100k,rob_per_100k,agg_ass_per_100k,State
+year,city,homs_sum,rape_sum,rob_sum,agg_ass_sum,violent_crime,violent_per_100k,homs_per_100k,rape_per_100k,rob_per_100k,agg_ass_per_100k,state
 1975,Albuquerque,30,181,819,1353,2383,832.5239835,10.48078871,63.23409191,286.1255319,472.683571,NM
 1975,Arlington,5,28,113,132,278,247.1594445,4.44531375,24.893757,100.4640908,117.356283,TX
 1975,Atlanta,185,443,3887,3518,8033,1637.436198,37.71015769,90.30053976,792.3209889,717.1045122,GA
