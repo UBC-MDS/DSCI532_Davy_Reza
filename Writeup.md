@@ -28,9 +28,11 @@ If the user places both the min and max of the year slider at the same value, th
 And the user can determine how many cities should be displayed (from at least 2 to at most 15) in that bar plot:
 <img src ="img/pic6.png"> <img src ="img/pic7.png">
 
+<img src ="img/pic6.png">
+
 If the user hovers the mouse over a plot, a tooltip will be shown which gives the coordinate (x and y values) of the closest data point in that chart. In addition, the input widgets of the app also have tooltips which can tell the user how they work.
 
-<img src ="img/pic6.png"> <img src ="img/pic9.png">
+<img src ="img/pic9.png">
 
 ### Visions & unfinished steps
 
