@@ -23,12 +23,11 @@ We have 5 separated tabs to show the data based on crime type. In this way, user
 
 If the user places both the min and max of the year slider at the same value, the line plot will turn into a bar chart a bar chart which displays the sorted crime data for that year in a ascending or descending order.  
 
-<img src ="img/pic5.png">
+<img src ="img/pic5.png"><img src ="img/pic6.png">
 
 And the user can determine how many cities should be displayed (from at least 2 to at most 15) in that bar plot:
 <img src ="img/pic6.png"> <img src ="img/pic7.png">
 
-<img src ="img/pic6.png">
 
 If the user hovers the mouse over a plot, a tooltip will be shown which gives the coordinate (x and y values) of the closest data point in that chart. In addition, the input widgets of the app also have tooltips which can tell the user how they work.
 
