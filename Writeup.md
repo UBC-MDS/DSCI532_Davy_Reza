@@ -7,28 +7,29 @@ Our app can be viewed at: <https://davygriffin.shinyapps.io/crime_data_browser/>
 
 ### Rationale
 
-In our proposal, we came out two scenarioes related to our app crime data browser. For the `Plotting the data and prediction` part, we choose using lineplot to plot the history data of a chosen city from chosen state. For the `Sorting the data` part, we use bar chart to compare the crime data for several cities from a selected year in asecending or descending order.
+In our proposal, we came out with two scenarios related to our app *crime data browser*. For the `Plotting the data and prediction` part, we choose using line plot to plot the history data of a chosen city from chosen state. For the `Sorting the data` part, we use a bar chart to compare the sorted crime data for several cities for a selected year in ascending or descending order.
 
 ### Functionality
 
-Once logged in the app, user can see the layout showed as below: <img src ="img/pic1.png">
+Once logged in the app, the user can see a layout showed as below: <img src ="img/pic1.png">
 
-User can select state, city and the year range, a lineplot will show up to display the history data through selected year range. The chart will update accordingly while user change their selection:
+User can select state, city and the year range, a line plot will show up to display the historical data within the selected year range. The chart will update automatically if the user changes their selection of state, city or year range:
 
 <img src ="img/pic2.png">
 
-We have 5 seperated tabs to show the data based on crime type. In this way, user could view the data in a more detailed way:
+We have 5 separated tabs to show the data based on crime type. In this way, user could view the data in a more detailed way:
 
 <img src ="img/pic3.png"> <img src ="img/pic4.png">
 
-If the user put button of slide bar overlapped, means the time became a selected year, the chart will become a bar chart to display the the crime data in asecending or descending order (chosen by user):
+If the user places both the min and max of the year slider at the same value, the line plot will turn into a bar chart a bar chart which displays the sorted crime data for that year in a ascending or descending order.  
 
 <img src ="img/pic5.png">
 
-And the user can determine how many cities they'd like to display (from at least 2 to at most 15): <img src ="img/pic6.png"> <img src ="img/pic7.png">
+And the user can determine how many cities should be displayed (from at least 2 to at most 15) in that bar plot:
+<img src ="img/pic6.png"> <img src ="img/pic7.png">
 
 ### Visions & unfinished steps
 
-Based on our visions, we are working on the prediction function, which will display a predicted crime data and will be plotted in dash line.
+In the original proposal we had submit buttons to switch between the line plots and bar charts, but based on the received feedback from the TA we decided to remove and use the year slider to change the display mode of the app. This new layout looks simpler and more interactive.
+Based on our visions, we are working on the prediction section of the app next week. We couldn't finish it since we had no time. By adding this feature, the user can first select a new year after 2015. The app will do a linear regression on the historical data and calculates the new crime rates for all the cities at that new year. These new data points will be added to the historical data and can be displayed beside them in both the line plot and bar chart. The user can remove or replace that new year if desired.
 
-There is several improving part of our app: we've noticed that the slidebar of the Year will make user confused, since the time range and time point will bring up 2 different outcome, We will keep working on a more clear layout of the sidebar.
