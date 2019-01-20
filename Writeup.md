@@ -30,6 +30,8 @@ And the user can determine how many cities should be displayed (from at least 2 
 
 If the user hovers the mouse over a plot, a tooltip will be shown which gives the coordinate (x and y values) of the closest data point in that chart. In addition, the input widgets of the app also have tooltips which can tell the user how they work.
 
+<img src ="img/pic6.png"> <img src ="img/pic8.png">
+
 ### Visions & unfinished steps
 
 In the original proposal we had submit buttons to switch between the line plots and bar charts, but based on the received feedback from the TA we decided to remove and use the year slider to change the display mode of the app. This new layout looks simpler and more interactive.
