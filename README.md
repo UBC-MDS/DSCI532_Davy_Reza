@@ -27,6 +27,13 @@ Milestone 3 writeup:
 
 
 
+Release v0.3:
+
+
+
+
+
+
 
 
 
