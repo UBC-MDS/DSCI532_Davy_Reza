@@ -12,6 +12,7 @@ https://github.com/UBC-MDS/DSCI532_Davy_Reza/tree/V0.1
 
 Milestone 2 writeup:
 
+https://github.com/UBC-MDS/DSCI532_Davy_Reza/blob/master/Milestone2_Writeup.md
 
 Release v0.2:
 
@@ -24,4 +25,6 @@ Given feedback links:
 2. https://github.com/UBC-MDS/DSCI_532_Suicide_Statistics/issues/10
 
 Milestone 3 writeup:
+
+https://github.com/UBC-MDS/DSCI532_Davy_Reza/blob/master/Milestone3_Writeup.md
 
