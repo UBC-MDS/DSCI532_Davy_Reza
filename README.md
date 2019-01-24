@@ -25,15 +25,3 @@ Given feedback links:
 
 Milestone 3 writeup:
 
-
-
-Release v0.3:
-
-
-
-
-
-
-
-
-
