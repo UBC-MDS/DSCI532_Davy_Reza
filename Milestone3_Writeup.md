@@ -7,60 +7,61 @@ Our app can be viewed at: <https://davygriffin.shinyapps.io/crime_data_browser/>
 
 ### Feedbacks and changes
 
-We've made following changes based on TA's feedback and suggestion:
+After the second milestone we received these feedbacks from the TA:
 
--   "I would suggest to change the plot colour based on the type of crime user selects"
+-   Suggesting to change the plot colour based on the type of crime user selects
 
-*We've changed plot colour based on the type of crime, both line chart and bar chart.* 
+-   Rotating the names of the cities to avoid overlap
+
+-   Adding more ticks for the year axis for clarity
+
+-   Separating the bar plot widgets 
+
+-   Asking why the state widget doesn't work for a barplot
+
+-   Requesting to add an "all cities" feature for the line plot so that the user can see the average for all cities in the selected state\
+
+-   Changing the variable names to be more specific and informative
+
+-   For the "number of cities", having an option to select one city 
+
+-   Writing more functions to avoid repetition
+
+After the feedback session, we received 2 feedbacks from other groups as well. The feedbacks were generally positive. They believed that the role of year slider to show the bar charts is hidden and not clear.  They had a comment about the rotation of the text label of the bar chart and using different colors in the plots which were addresses before. They also suggested to show all the categories in one plot. So what was common between all the feedbacks was the suggesting to use different color. more clarification on the year slider and rotation of the text labels. We guess the clarification for the year slider is very important here.
+So we decided to make lots of changes. We added a help text below the slider to clarify that. We made the following changes:
+
+
++ *We've changed plot colour based on the type of crime, both line chart and bar chart.* 
 
 <img src ="img/pic10.png">
 
 <img src ="img/pic11.png">
 
--   'It would be better to rotate the names of the cities to avoid overlap."
++ *They axis text labels in the bar chart are rotated now.*
 
-*They are rotated now.*
++ *More ticks have been added to line plot axis.*
 
--   "Please add more ticks for the year axis for clarity."
-
-*More ticks have been added.*
-
--   "Two of your widgets at the bottom are only used for barplot - please either hide them until the user selects this option or make it otherwise more clear""
-
-*There are now line separators for each section on the panel with titles and there are also some help texts on the panel that describe the widget functions.*
++ *There are now line separators for each section on the panel with titles and there are also some help texts on the panel that describe the widget functions.*
 
 <img src ="img/pic13.png">
 
--   "The state widget doesn't work for a barplot."
-
-*This is not a bug. The bar plot shows the country-wide data not the state data. That's because most of the states only have one city. We added a help text to the panel to clarify what it is plotting.*
-
--   "I would add an "all cities" feature for the line plot so that the user can see the average for all cities in the selected state"
-
-*Now there is a second plot on the bottom that shows the average values for each state.* 
++ *Now there is a second plot on the bottom that shows the average values for each state.* 
 
 <img src ="img/pic14.png">
 
--   "For the "number of cities" widget I would suggest having an option to select one city or somehow take care of the states that only have one city in the list"
++ *You can now select one city from the slider.*
 
-*You can now select one city from the slider.*
++ *We tried to add variables with more informative names.*
 
--   "Please make sure your variable names are more specific and informative"
++ *We now have some functions in our code to plot the data for each crime category.*
 
-*We've made changes to make it more informative.*
++ *We have added a help text below the slider bar to explain how it works.*
 
--  "Some of your functions, for example, ggplot for barplots and ggplotly are repeated several times in the code with the same parameters. You can try to write a function to avoid repetition"
 
-*We now have functions to plot the data for each crime category.*
+There was a comment asking to show several categories in one plot, however, we decided not to do that. However, we have decided not to do that. That is because we adding the predictions and showing all the curves with their regression lines and new points makes the plot very crowded and difficult to read.
 
--   "For the year widget, you can also play around and try to implement a range text box - ie if a user puts in the same year in both text boxes, the graph will change into a barplot. The functionality in this case might be a bit more clear."
-
-*We have added a help text below the slider bar to explain how it works.*
-
-After the feedback session, we received 2 feedbacks from other groups and TA as well. Here is a list of issues and the changes that we made to resilve them:
-
-We also received some feedback from other groups. The feedbacks were generally positive. They believed that the role of year slider to show the bar charts is hidden and not clear. So we added a help text below the slider to clarify that. They had a comment about the rotation of the text label of the bar chart and using different colors in the plots which were addresses before.
-They also suggested to show all the categories in one plot. However, we decided not to do that. That is because we adding the predictions and showing all the curves with their regression lines and new points makes the plot very crowded and difficult to read.
+We also received a comment that the state widget doesn't work for a barplot. This is not a bug. The bar plot shows the country-wide data not the state data. That's because most of the states only have one city. Se we added a help text to the panel to clarify what it is plotting.
+We think that receiving those feedbacks were very useful for improving our app and now our app looks much better. We figured out which parts of the app interface was confusing and which parts needed improvement. This was an instructive experience for us.
 
 
 ### Updates since Milestone 2
