@@ -28,3 +28,7 @@ Milestone 3 writeup:
 
 https://github.com/UBC-MDS/DSCI532_Davy_Reza/blob/master/Milestone3_Writeup.md
 
+Release v1.0 (Final Release):
+
+https://github.com/UBC-MDS/DSCI532_Davy_Reza/tree/V1.0
+

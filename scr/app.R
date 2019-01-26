@@ -13,7 +13,7 @@ library(plotly)
 library(shinythemes)
 
 # Load the data
-data <- read.csv("crime_data.csv", stringsAsFactors = FALSE)
+data <- read.csv("../Data/crime_data.csv", stringsAsFactors = FALSE)
 data <- data %>% arrange(State, City)
 first <- data$State[1]
 #mc <- length(unique(data$City))
@@ -253,7 +253,8 @@ server <- function(input, output, session) {
         ylab(paste(label," per 100K"))+
         xlab("Year")+
         theme(axis.title  = element_text(size = rel(2.5)))+
-        theme_bw()+ggtitle(paste(label," in ", input$state))
+        theme_bw()+ggtitle(paste(label," in ", input$state))+
+        scale_x_continuous(breaks = seq(input$year_range[1], input$year_range[2], by = 4))
       
       
       ggplotly(pt, tooltip="text") %>% config(displayModeBar = F)
@@ -351,8 +352,8 @@ server <- function(input, output, session) {
         geom_bar(stat="identity", fill = color)+
         xlab("City")+
         ylab(paste(label," per 100K"))+
-        theme(axis.title  = element_text(size = rel(2.5)))+
-        theme_bw() 
+        theme_bw()+
+        theme(axis.text.x = element_text(angle=90, hjust=1))
       # Add title
       if (prediction_flag==TRUE && as.numeric(input$year_range[1])==new_year) {
         
@@ -389,8 +390,9 @@ server <- function(input, output, session) {
         geom_bar(stat="identity", fill = color)+
         xlab("City")+
         ylab(paste(label," per 100K"))+
-        theme(axis.title  = element_text(size = rel(2.5)))+
-        theme_bw()
+        theme_bw()+
+        theme(axis.text.x = element_text(angle=90, hjust=1))
+        
       
       # Add title
       if (prediction_flag==TRUE && as.numeric(input$year_range[1])==new_year) {
@@ -414,7 +416,8 @@ server <- function(input, output, session) {
       ylab(paste(label," per 100K"))+
       xlab("Year")+
       theme(axis.title  = element_text(size = rel(2.5)))+
-      theme_bw() 
+      theme_bw()+
+      scale_x_continuous(breaks = seq(input$year_range[1], input$year_range[2], by = 4))
     
     # plot the regression line in prediction mode
     if (prediction_flag==TRUE) {
