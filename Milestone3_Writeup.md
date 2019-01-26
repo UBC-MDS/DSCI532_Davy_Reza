@@ -5,9 +5,24 @@ Reza Bagheri and Weifeng Davy Guo
 
 Our app can be viewed at: <https://davygriffin.shinyapps.io/crime_data_browser/>.
 
-### Reflection on the feedback from other groups
+### Feedbacks and changes
 
-After the feedback session, we received 2 feedbacks from other groups and TA's as well. These feedback are deeply appreciated by us.
+After the feedback session, we received 2 feedbacks from other groups and TA as well. Here is a list of issues and the changes that we made to resilve them:
+
++ I would suggest to change the plot colour based on the type of crime user selects <br>
+*The app now plots each crime category with a different color*<br>
++ It would be better to rotate the names of the cities to avoid overlap<br><br>
+*We have rotated the text label in the bar charts*
++ Two of your widgets at the bottom are only used for barplot - please either hide them until the user selects this option or make it otherwise more clear<br>
+*There are now line separators for each section on the panel with titles and there are also some help texts on the panel that describe the widget functions*<br>
++ The state widget doesn't work for a barplot <br>
+*This is not a bug. The bar plot shows the country-wide data not the state data. That's becasue most of the states only have one city. We added a helptext to the pannel to calrify what it is plotting.*<br>
++ I would add an "all cities" feature for the line plot so that the user can see the average for all cities in the selected state<br>
+*Now there is a second plot on the bottom that shows the average values for each state*<br>
++ For the "number of cities" widget I would suggest having an option to select one city or somehow take care of the states that only have one city in the list<br>
+*You can now select one city from the slider*<br>
++ Some of your functions, for example, ggplot for barplots and ggplotly are repeated several times in the code with the same parameters. You can try to write a function to avoid repetition<br>
+*We now have functions to plot the data for each crime category*<br>
 
 During the "Fly on the wall session", both of the groups were play around focus on our 1st scenario which is the history crime record of one specific city and we were expecting them to do so. However, neither of the groups found our 2nd scenario which is displaying crime statics of several top/bottom cities of one specific year. After we showing them about this in the informed-run, we recieved positive feedback about this design. This difference make us realized that, one of the design flaw is we didn't show our app's function or features obviously and entirely. Users are supposed to easily get the app by clicking around. As we assumed, the slide bar of year mislead the users to only focus on selecting the year range. They didn't noticed or tried to explore the possibility of put the two buttons together to "activate" the second scenarioes.
 
