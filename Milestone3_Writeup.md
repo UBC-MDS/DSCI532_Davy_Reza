@@ -19,7 +19,7 @@ After the second milestone we received these feedbacks from the TA:
 
 -   Asking why the state widget doesn't work for a barplot
 
--   Requesting to add an "all cities" feature for the line plot so that the user can see the average for all cities in the selected state\
+-   Requesting to add an "all cities" feature for the line plot so that the user can see the average for all cities in the selected state
 
 -   Changing the variable names to be more specific and informative
 
@@ -66,7 +66,7 @@ We think that receiving those feedbacks were very useful for improving our app a
 
 ### Updates since Milestone 2
 
-As mentioned earlier, we focus on improve the design of the app since milestone2.
+As mentioned earlier, we focused on improving the design of the app since milestone 2.
 
 -   We have added a dark theme to the app.
 
@@ -76,11 +76,8 @@ As mentioned earlier, we focus on improve the design of the app since milestone2
 
 -   We've added help text to the panel and divided it with lines to help the user how to use the app.
 
--   We've made minor design change (like ticks) per feedback.
 
--   We've added functions and lots of comments to the code
-
--The most important feature we achieved is the prediction function using linear regression. The user should enter a year after 2015 and  then click "Add" button. If the user enters a a year before 2015 or something which is not a number, the app will show an error message.
+-The most important feature we added is the prediction section that uses linear regression. The user should enter a year after 2015 and then click "Add" button. If the user enters a a year before 2015 or something which is not a number, the app will show an error message.
 
 <img src ="img/pic16.png">
 
