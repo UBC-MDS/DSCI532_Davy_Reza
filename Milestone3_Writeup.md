@@ -11,7 +11,11 @@ We've made following changes based on TA's feedback and suggestion:
 
 -   "I would suggest to change the plot colour based on the type of crime user selects"
 
-*We've changed plot colour based on the type of crime, both line chart and bar chart.* <img src ="img/pic10.png"> <img src ="img/pic11.png">
+*We've changed plot colour based on the type of crime, both line chart and bar chart.* 
+
+<img src ="img/pic10.png">
+
+<img src ="img/pic11.png">
 
 -   'It would be better to rotate the names of the cities to avoid overlap."
 
@@ -23,7 +27,9 @@ We've made following changes based on TA's feedback and suggestion:
 
 -   "Two of your widgets at the bottom are only used for barplot - please either hide them until the user selects this option or make it otherwise more clear""
 
-*There are now line separators for each section on the panel with titles and there are also some help texts on the panel that describe the widget functions.*<img src ="img/pic13.png">
+*There are now line separators for each section on the panel with titles and there are also some help texts on the panel that describe the widget functions.*
+
+<img src ="img/pic13.png">
 
 -   "The state widget doesn't work for a barplot."
 
@@ -31,7 +37,9 @@ We've made following changes based on TA's feedback and suggestion:
 
 -   "I would add an "all cities" feature for the line plot so that the user can see the average for all cities in the selected state"
 
-*Now there is a second plot on the bottom that shows the average values for each state.* <img src ="img/pic14.png">
+*Now there is a second plot on the bottom that shows the average values for each state.* 
+
+<img src ="img/pic14.png">
 
 -   "For the "number of cities" widget I would suggest having an option to select one city or somehow take care of the states that only have one city in the list"
 
