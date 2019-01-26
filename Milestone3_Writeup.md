@@ -23,7 +23,7 @@ We've made following changes based on TA's feedback and suggestion:
 
 -   "Please add more ticks for the year axis for clarity."
 
-*More ticks has been added.*
+*More ticks have been added.*
 
 -   "Two of your widgets at the bottom are only used for barplot - please either hide them until the user selects this option or make it otherwise more clear""
 
