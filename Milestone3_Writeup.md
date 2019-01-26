@@ -27,7 +27,7 @@ We've made following changes based on TA's feedback and suggestion:
 
 -   "The state widget doesn't work for a barplot."
 
-*This is not a bug. The bar plot shows the country-wide data not the state data. That's becasue most of the states only have one city. We added a helptext to the pannel to calrify what it is plotting.*
+*This is not a bug. The bar plot shows the country-wide data not the state data. That's because most of the states only have one city. We added a help text to the panel to clarify what it is plotting.*
 
 -   "I would add an "all cities" feature for the line plot so that the user can see the average for all cities in the selected state"
 
@@ -51,17 +51,17 @@ We've made following changes based on TA's feedback and suggestion:
 
 After the feedback session, we received 2 feedbacks from other groups and TA as well. Here is a list of issues and the changes that we made to resilve them:
 
-We also received some feedback from other groups. The feedbacks were genrally positive. They belived that the role of year slider to show the bar charts is hidden and not clear. So we added a help text below the slider to clarify that. They had a comment about the rotation of the text label of the bar chart and using differenr colors in the plots which were addresses before.
-They also suggested to show all the categories in one plot. However, we decided not to do that. That is becasue we adding the predictions and showing all the curves with thier regression lines and new points makes the plot very crowded and difficult to read.
+We also received some feedback from other groups. The feedbacks were generally positive. They believed that the role of year slider to show the bar charts is hidden and not clear. So we added a help text below the slider to clarify that. They had a comment about the rotation of the text label of the bar chart and using different colors in the plots which were addresses before.
+They also suggested to show all the categories in one plot. However, we decided not to do that. That is because we adding the predictions and showing all the curves with their regression lines and new points makes the plot very crowded and difficult to read.
 
 
 ### Updates since Milestone 2
 
 As mentioned earlier, we focus on improve the design of the app since milestone2.
 
--   We have added a dark theme to tthe app.
+-   We have added a dark theme to the app.
 
--   We've added another line chart to dispaly the average statstics in selected states.
+-   We've added another line chart to display the average statistics in selected states.
 
 -   We've change the chart color based on crime type so user will clearly see the difference.
 
@@ -71,10 +71,17 @@ As mentioned earlier, we focus on improve the design of the app since milestone2
 
 -   We've added functions and lots of comments to the code
 
--The most important feature we achieved is the prediction funtion using linear regression. The user should enter a year after 2015 and  then click "Add" button. If the user enters a a year below 2015 or something which is not a number, the app will show an error message. 
+-The most important feature we achieved is the prediction function using linear regression. The user should enter a year after 2015 and  then click "Add" button. If the user enters a a year before 2015 or something which is not a number, the app will show an error message.
 
-After pressing the button a linear regression will be done on the whole data set and the new values for each crime category will be calculated for the new year. The new data point and regression line will be shown in the line plot. The user can switch between tabs or even switch to the bar plots to see the sorted data for the new year. By pressing the 'Remove' button all the predictions will be removed from the plot. When you do a regression analysis, it is possible that you end up with negative numbers for your prediction. This may happens for the cities that have a declining crime rate. In that case showing a negative crime rate may be meaninless, so the app sets the negative numbers to zero.
+<img src ="img/pic16.png">
+
+After pressing the button a linear regression will be done on the whole data set and the new values for each crime category will be calculated for the new year. The new data point and regression line will be shown in the line plot. The user can switch between tabs or even switch to the bar plots to see the sorted data for the new year. If the user selects a year range after 2015 and before new year, the app will give a warning that no data is available to show.
 
 <img src ="img/pic15.png">
+
+By pressing the 'Remove' button all the predictions will be removed from the plot. When you do a regression analysis, it is possible that you end up with negative numbers for your prediction. This may happens for the cities that have a declining crime rate. In that case showing a negative crime rate may be meaninless, so the app sets the negative numbers to zero.
+
+<img src ="img/pic17.png">
+
 
 We are glad to see that we have implemented all the features of our app according to our proposal. Hence, our objectives remain unchanged.
