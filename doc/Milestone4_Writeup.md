@@ -34,3 +34,5 @@ If we redo the app again, we will consider about removing some of the feature. E
 1.  For the sorting data scenario, it didn't fit perfectly with the layout of the whole app, users feedback shows that this scenario is not as straightforward as the line chart. We may give it a second thought.
 
 2.  For the prediction part, it mainly because of the accuracy of linear regression model. The result of the prediction only shows a result while have no proof to backup the number
+
+### "What were the greatest challenges you faced in creating the final product?"
