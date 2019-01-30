@@ -19,11 +19,11 @@ For this last milestone we first dealt with the feedbacks received from the prev
 
 In addition, we added some more features to our app:
 
--   We added a dynamic legend to the prediction plot. Now, when you switch to the prediction mode, the legend appears on the line plot.
+-   We added a dynamic legend to the prediction plot. Now, when you switch to the prediction mode, the legend appears on the line plot. This makes it easier ode the user to read plot.
 
--   The prediction line was also added to the plot for the average state data.
+-   The prediction line was also added to the plot for the average state data. So now can also predict the average data for each state.
 
--   We changed the plot tooltips to show the truncated numbers. Now the numbers only have three digits after the decimal point.
+-   We changed the plot tooltips to show the truncated numbers. Now the numbers only have three digits after the decimal point. This makes the tooltip more useful.
 
 <img src ="../img/pic22.png">
 
