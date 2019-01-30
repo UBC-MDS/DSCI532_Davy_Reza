@@ -5,34 +5,29 @@ Reza Bagheri and Weifeng Davy Guo
 
 Our app can be viewed at: <https://davygriffin.shinyapps.io/crime_data_browser/>.
 
-### "What changes did you decide to implement given the time limit, and why do you think this is the best thing to focus on?"
+For this last milestone we first dealt with the feedbacks received from the previous milestone. Here are some changes that we made:
 
-Since we've achieved all the feature we proposed and the time limit, we've decided to focus on the improvement based on TA's feedback. The feedback is the best thing to focus on due to we've valued the feedback.
+-   We added the name of the city to the title of the top plot. The bar plots also show the name of the city now.
 
--   "I would add the title to the top plot and indicate the city plotted"
+-   The help text for the year widget is now placed under it.
 
--   "The help text about the year widget could be moved under it, so it is more clear."
+-   We changed the help text for the bar plot section to make it more clear.
 
--   "Also, I would say smth along the lines of "Sort the data for a barplot" to make it crystal clear which graphs those widgets affect"
+-   We fixed the typo in the  predictions section help text. 
 
--   "You have a typo in the predictions widget text - 'To remove' instead of 'The remove' "
+-   We changed the name of some of the variables to make them more meaningful.
 
-We made the following changes:
+In addition, we added some more features to our app:
 
--   Title of the city plotted added. <img src ="../img/pic18.png">
+-   We added a dynamic legend to the prediction plot. Now, when you switch to the prediction mode, the legend appears on the line plot.
 
--   Help text relocated. <img src ="../img/pic19.png">
+-   The prediction line was also added to the plot for the average state data.
 
--   Instruction text added. <img src ="../img/pic20.png">
+-   We changed the plot tooltips to show the truncated numbers. Now the numbers only have three digits after the decimal point.
 
--   Typo corrected. <img src ="../img/pic21.png">
+<img src ="../img/pic22.png">
 
-### "If you were to make the app again from scratch (or some other app in general), what would you do differently?"
-
-If we redo the app again, we will consider about removing some of the feature. Either the "sorting data" scenario or "prediction" function.
-
-1.  For the sorting data scenario, it didn't fit perfectly with the layout of the whole app, users feedback shows that this scenario is not as straightforward as the line chart. We may give it a second thought.
-
-2.  For the prediction part, it mainly because of the accuracy of linear regression model. The result of the prediction only shows a result while have no proof to backup the number
-
-### "What were the greatest challenges you faced in creating the final product?"
+Basaed on what we learned from this project, if we were to make this app again, we wouldn't add the "prediction" part. It took a lot of time to write the code and debug it, but it didn't improve the user interface. We could focus on adding more visual items like 'maps' so that our app looks better. These features would be much easier to impelemnt, and we could save our time. 
+Our year slider was initially very confusing, so we would design it differently. We would write more functions in our code from the beggining. 
+The greatest challenges in this course was the lack of training. The lectures had nothing to do with the labs, and we had no previous experience with R programming and Shiny app. 
+When using Shiny app, you cannot use some of the R studio features like the variable viewer, so debugging the code is much more difficult, and we never learned anything about debugging it in the lectures. So it took us a lot of time to learn how to debug the code efficiently. Another challenge was the lack of time. In a week with three exams and three other labs, you can hardly find a time to finish a coding project like this. We could write a simpler proposal and focus on designing a more elegant interface for our app.  
