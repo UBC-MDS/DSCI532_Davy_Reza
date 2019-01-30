@@ -12,7 +12,7 @@ https://github.com/UBC-MDS/DSCI532_Davy_Reza/tree/V0.1
 
 Milestone 2 writeup:
 
-https://github.com/UBC-MDS/DSCI532_Davy_Reza/blob/master/Milestone2_Writeup.md
+https://github.com/UBC-MDS/DSCI532_Davy_Reza/blob/master/doc/Milestone2_Writeup.md
 
 Release v0.2:
 
@@ -26,9 +26,17 @@ Given feedback links:
 
 Milestone 3 writeup:
 
-https://github.com/UBC-MDS/DSCI532_Davy_Reza/blob/master/Milestone3_Writeup.md
+https://github.com/UBC-MDS/DSCI532_Davy_Reza/blob/master/doc/Milestone3_Writeup.md
 
-Release v1.0 (Final Release):
+Release v1.0:
 
 https://github.com/UBC-MDS/DSCI532_Davy_Reza/tree/V1.0
+
+Milestone 4 writeup:
+
+https://github.com/UBC-MDS/DSCI532_Davy_Reza/blob/master/doc/Milestone4_Writeup.md
+
+Release 2.0 (Final Release):
+
+
 
