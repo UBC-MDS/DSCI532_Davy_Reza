@@ -38,5 +38,7 @@ https://github.com/UBC-MDS/DSCI532_Davy_Reza/blob/master/doc/Milestone4_Writeup.
 
 Release 2.0 (Final Release):
 
+https://github.com/UBC-MDS/DSCI532_Davy_Reza/tree/V2.0
+
 
 
